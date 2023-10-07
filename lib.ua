@@ -15,7 +15,7 @@ ArgStr ← !IdxDefault+1⊗∶&args□∶&args
 ArgInt ← parse!IdxDefault&args+1⊗∶&args□⊙$"_"
 
 # try and read a file, on failiure, error
-TryFras ← (|1 ⍣&fras(0 0 ⍤ $"Tried not read from _, try creating that file and put stuff in it!";))
+TryFras ← (|1 ⍣&fras(0 0 ⍤ $"Tried to read from _, try creating that file and put stuff in it!";))
 
 # splits a str by newlines
 # 
