@@ -20,7 +20,7 @@ $ uiua run main.ua -- 2022 1
 For testing purposes you can also run the solutions with the `--test` flag:
 
 ```bash
-$ uiua run main.ua 2022 1 -- --test
+$ uiua run main.ua -- 2022 1 --test
 ```
 
 This will run the solution using the data found in `test.txt` instead of pulling it from the website.
